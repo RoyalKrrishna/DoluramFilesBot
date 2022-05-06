@@ -1,0 +1,6 @@
+Pyrogram==1.4.16
+TgCrypto
+motor
+aiofiles
+dnspython
+psutil
