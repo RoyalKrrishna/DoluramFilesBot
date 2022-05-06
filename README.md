@@ -37,7 +37,7 @@ This is Telegram Parmanent Files Store Bot by [RoyalKrrishna](https://t.me/Royal
 
 
 ### Deploy Now:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RoyalKrrishna/PyroFilesStoreBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RoyalKrrishna/DoluramFilesBot)
 
 ## Commands:
 ```
