@@ -36,7 +36,10 @@ Also remember that developer will Delete Adult Contents from Database. So better
 💰 **Donate Now** - krrishnabaaghi@paytm (UPI)
 """
 	HOME_TEXT = """
-Hey, [{}](tg://user?id={}) 😀\n\nThis is Doluram The Permanent **File Store Bot**.
+**Hey, [{}](tg://user?id={}) 😀\n\nThis is Doluram The Permanent File Store Bot.🤖
 
 Send me any file And I will give you a permanent Sharable Link. I Support Channel Also! Check **About Bot** Button.
+
+Note❗
+Don't upload any adult content otherwise you will be ban permanently.🚫**
 """
