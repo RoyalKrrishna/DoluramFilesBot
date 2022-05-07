@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @RoyalKrrishna
 
 import os
 
@@ -20,14 +20,14 @@ class Config(object):
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
 	ABOUT_BOT_TEXT = f"""
 **I Am Permanent File Store Bot 🤖
-Send me any file and I will save it in my Database. I'm Also works for channel, Add me to your channel as Admin with Edit Permission and I will add Save all your Uploaded File in Channel and add Sharable Button Link.🔗**
+Send me any file and I will save it in my Database.\n\nI'm Also works for channel, Add me to your channel as Admin with Edit Permission and I will Save all your Uploaded File in Channel and add Sharable Button Link.🔗**
 
-🤖 **My Name:** [Doluram Files](https://t.me/{BOT_USERNAME})
+🤖 **My Name: [Doluram](https://t.me/{BOT_USERNAME})**
 
-🧑‍🍼 **My Father:** @RoyalKrrishna
+🧑‍🍼 **My Father: @RoyalKrrishna**
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer:** @RoyalKrrishna
+🧑🏻‍💻 **Developer: @RoyalKrrishna**
 
 Developer is Super Noob 😒. He's Just Learning from Official Docs. Please Donate the developer for Keeping the Service Alive 🤪.
 
@@ -38,8 +38,8 @@ Also remember that developer will Delete Adult Contents from Database. So better
 	HOME_TEXT = """
 **Hey, [{}](tg://user?id={}) 😀\n\nThis is Doluram The Permanent File Store Bot.🤖
 
-Send me any file And I will give you a permanent Sharable Link. I Support Channel Also! Check **About Bot** Button.
+Send me any file And I will give you a permanent Sharable Link. I Support Channel Also! Check About Bot Button.
 
 Note❗
-Don't upload any adult content otherwise you will be ban permanently.🚫**
+Don't upload any adult content otherwise you will be ban.🚫**
 """
