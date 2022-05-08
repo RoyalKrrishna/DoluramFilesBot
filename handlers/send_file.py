@@ -10,13 +10,11 @@ from handlers.helpers import str_to_b64
 
 async def reply_forward(message: Message, file_id: int):
     try:
-        link = await message.reply_text(
+        await message.reply_text(
             f"**Here is Sharable Link of this file:**\n"
             f"https://t.me/{Config.BOT_USERNAME}?start=Doluram{str_to_b64(str(file_id))}\n\n"
             f"__To Retrive the Stored File, just open the link!__",
             disable_web_page_preview=True, quote=True)
-            await asyncio.sleep(1800)
-            await link.delete()
     except FloodWait as e:
         await asyncio.sleep(e.x)
         await reply_forward(message, file_id)
