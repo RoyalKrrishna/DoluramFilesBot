@@ -15,6 +15,8 @@ async def reply_forward(message: Message, file_id: int):
             f"https://telegram.me/{Config.BOT_USERNAME}?start=RoyalKrrishna_{str_to_b64(str(file_id))}\n\n"
             f"__To Retrive the Stored File, just open the link!__",
             disable_web_page_preview=True, quote=True)
+        await asyncio.sleep(10)
+        await link.delete()
     except FloodWait as e:
         await asyncio.sleep(e.x)
         await reply_forward(message, file_id)
@@ -34,7 +36,6 @@ async def media_forward(bot: Client, user_id: int, file_id: int):
 
 
 async def send_media_and_reply(bot: Client, user_id: int, file_id: int):
-    sent_message = await media_forward(bot, user_id, file_id)
+    msg = sent_message = await media_forward(bot, user_id, file_id)
     await reply_forward(message=sent_message, file_id=file_id)
-    await asyncio.sleep(10)
-    await link.delete()
+    await asyncio.sleep(2)
