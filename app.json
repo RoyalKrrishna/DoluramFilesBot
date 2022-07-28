@@ -42,6 +42,10 @@
             "description": "Banned unwanted members",
             "required": false
         },
+        "START_PHOTO": {
+            "description": "Photo Url",
+            "required": false
+        },
         "BANNED_CHAT_IDS": {
             "description": "Banned unwanted channel IDs",
             "required": false
