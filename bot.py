@@ -67,8 +67,8 @@ async def start(bot: Client, cmd: Message):
     if usr_cmd == "/start":
         await add_user_to_database(bot, cmd)
         await cmd.reply_photo(
-             photo=Config.START_PHOTO,
-            caption=Config.HOME_TEXT.format(cmd.from_user.first_name, cmd.from_user.id),
+            photo=Config.START_PHOTO,
+             caption=Config.HOME_TEXT.format(cmd.from_user.first_name, cmd.from_user.id),
             parse_mode="Markdown",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
